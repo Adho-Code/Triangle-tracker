@@ -6,14 +6,19 @@ var measurement3 = parseInt(document.getElementById("measurement3").value);
 
 var measurements = [measurement1,measurement2,measurement3];
 
-if(measurements[0] === measurements[1] && measurements[0] === measurements[2]){
-alert ("equilateral triangle!");    
+if(measurements[0]+measurements[1]>measurements[2] && measurements[1]+measurements[2]>measurements[0] && measurements[0]+measurements[2]>measurements[1]){
+    if(measurements[0] === measurements[1] && measurements[0] === measurements[2]){
+        alert ("equilateral triangle!");    
+        }
+        else if(measurements[0]=== measurements[1] || measurements[1] === measurements[2] || measurements[0]===measurements[2]){
+        alert ("isosceles triangle!");    
+        }
+        else if(measurements[0]!== measurements[1] || measurements[1] !== measurements[2] || measurements[0]!==measurements[2]){
+        alert ("scalene triangle!");
+        }
 }
-else if(measurements[0]=== measurement2 || measurement2 === measurement3){
-alert ("isosceles triangle!");    
-}
-else 
+else
 {  
-alert ("scalene triangle!");
+alert ("Not a triangle!");
 }
 }
