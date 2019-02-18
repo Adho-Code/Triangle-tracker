@@ -1,4 +1,9 @@
 body {
-    background-color: blue;
+    background-image:  url('77312bbfae63f000397755e642a4236a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1400px;
 }
-
+h1{
+    color: brown;
+}

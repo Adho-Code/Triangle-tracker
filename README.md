@@ -7,7 +7,9 @@ This is a triangle tracker project which enable the user to know if triangle is 
 
 
 ## Behavior Driven  Development 
-
+|General Behavior |  Input  |  Output|
+|-----------: |--------: |--------:|
+|Triangle tracker determines the type of triangle according to the values given|measurement1,2,and 3 are inputs then it display the type of triangle|  |Reset the functionality incase the user input the wrong dimension||If the user input measurement1=to measurement2 and also equal to measurement3 hence triangle iss equilateral|If measurement1 is= to measurement2 but not equal to measurement3 hence the triangle is isosceles triangle.Otherwise if the measurements are different then scalene triangle is displayed|.
 ## Setup/Installation Requirements
 * Open a github account.
 * Search for a project name at the repository.

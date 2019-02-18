@@ -12,10 +12,8 @@ alert ("equilateral triangle!");
 else if(measurements[0]=== measurement2 || measurement2 === measurement3){
 alert ("isosceles triangle!");    
 }
-else if(measurements[0]+measurements[1]<=measurements[2] || (measurements[1]+measurement[2]<=measurements[0] || (measurements[0]+measurements[1])<=measurements[2] )){
-alert ("not a triangle!");    
-}
-else if((measurements[0]+measurements[1]) <= measurements[2] && (measurement[0] + measurements[2] <= measurements[1] || measurements[1] + measurements[2])){  
+else 
+{  
 alert ("scalene triangle!");
 }
 }
